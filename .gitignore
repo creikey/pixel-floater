@@ -1,3 +1,8 @@
+# Cached godot settings file
+tmp.tres
+
+# Exported games
+exports/
 
 # Godot-specific ignores
 .import/
