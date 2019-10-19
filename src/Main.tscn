@@ -25,10 +25,20 @@ player_visibility_radius = 1500.0
 target_enemies = 80
 player_path = NodePath("../Player")
 
-[node name="Label" type="Label" parent="."]
+[node name="InstructionsLabel" type="Label" parent="."]
 margin_left = -46.0
 margin_top = -90.0
 margin_right = 47.0
 margin_bottom = -76.0
 text = "Go to the right"
+valign = 1
+
+[node name="CreditsLabel" type="Label" parent="."]
+margin_left = -87.0
+margin_top = 90.0
+margin_right = 87.0
+margin_bottom = 121.0
+text = "Procedural Generation Test
+Made by creikey"
+align = 1
 valign = 1
