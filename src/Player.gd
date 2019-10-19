@@ -22,7 +22,8 @@ func _physics_process(delta):
 	velocity += acceleration*delta
 	velocity.x = clamp(velocity.x, -maximum_velocity, maximum_velocity)
 	velocity.y = clamp(velocity.y, -maximum_velocity, maximum_velocity)
-	move_and_collide(velocity*delta)
+	velocity = move_and_slide(velocity)
+#	if get_nu
 
 func calculate_acceleration(input: int, delta: float, velocity: float) -> float:
 	if input == 0:

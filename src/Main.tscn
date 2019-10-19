@@ -20,7 +20,15 @@ texture = ExtResource( 1 )
 [node name="EnemySpawner" type="Node2D" parent="."]
 script = ExtResource( 3 )
 safe_radius = 800.0
-camera_view_radius = 560.28
+camera_view_radius = 750.0
 player_visibility_radius = 1500.0
 target_enemies = 80
 player_path = NodePath("../Player")
+
+[node name="Label" type="Label" parent="."]
+margin_left = -46.0
+margin_top = -90.0
+margin_right = 47.0
+margin_bottom = -76.0
+text = "Go to the right"
+valign = 1
