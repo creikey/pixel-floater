@@ -6,6 +6,10 @@
 
 [node name="Player" type="KinematicBody2D"]
 script = ExtResource( 1 )
+move_acceleration = 3000.0
+switching_acceleration = 12000.0
+move_decelleration = 1800.0
+maximum_velocity = 800.0
 
 [node name="ColorRect" type="ColorRect" parent="."]
 anchor_right = 1.0
